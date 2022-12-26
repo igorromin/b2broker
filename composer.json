@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/b2broker",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "igorromin",
+      "email": "igorromin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-decimal": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "1.*",
+    "squizlabs/php_codesniffer": "3.*",
+    "slevomat/coding-standard": "8.*"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
